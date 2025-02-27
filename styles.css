@@ -99,6 +99,7 @@ a { color: inherit; }
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 
@@ -176,6 +177,7 @@ li{list-style: none;}
     border-radius: 12px;
     font-size: 16px;
     font-weight: 700;
+    text-decoration: none;
 
 }
 /* @media (max-width: 600px) {
