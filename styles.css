@@ -10,11 +10,45 @@
                         "search-bar"
                          "company-logos"
                          "jobs-area"
+                         "category-browser"
                         "footer";
 }
 
 a { color: inherit; } 
 
+
+.browser-title{
+    font-family: 'Figtree';
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.browser-title h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.browser-title h2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.category-browser{
+    margin-top: 40px;
+    grid-area: category-browser;
+    background-color:rgba(48, 150, 137,0.1);
+    padding-bottom: 120px;
+}
+
+.category-cards{
+    padding-left: 72px;
+    display: flex;
+    gap: 40px;
+}
 
 .description{
     width: 300px; /* Set the width of the box */
@@ -155,10 +189,42 @@ a { color: inherit; }
 .jobs-listing p{
    background-color: rgba(48, 150, 137,0.1);
    color:#309689;
-   display: inline-block;
    border-radius: 8px;
-   padding: 5px;
+   padding: 10px;
    margin-left: 40px;
+   margin-bottom: 24px;
+}
+
+.opaque-label{
+    background-color: rgba(48, 150, 137,0.1);
+    color:#309689;
+    border-radius: 8px;
+    padding: 10px;
+ }
+
+.jobs-amount {
+    background-color: rgba(48, 150, 137,0.1);
+    color:#309689;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 24px;
+ }
+
+
+.catcard{
+    margin-top: 60px;
+    background-color: white;
+    width: 306px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Faint shadow */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Very light border */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    gap:40px;
 }
 
 .card {
@@ -167,8 +233,8 @@ a { color: inherit; }
     border: 1px solid rgba(0, 0, 0, 0.1); /* Very light border */
     padding: 16px;
     background: white;
-    width: 1296px;
-    height: 251px;
+    margin-right: 72px;
+    
 }
 
 .card-details{
@@ -185,6 +251,37 @@ a { color: inherit; }
     gap:2px
 }
 
+.card-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-middle{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-text h1{
+    font-size: 28px;
+}
+
+.card-text h3{
+    font-weight: 400;
+}
 .company-logos{
     display: flex;
     grid-area: company-logos;
