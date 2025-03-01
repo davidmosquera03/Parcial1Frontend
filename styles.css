@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.main {
+    display: grid;
+    grid-template-areas:"header"
+                        "search-bar"
+                         "company-logos"
+                         "jobs"
+                         "category"
+                         "info-block"
+                         "banner"
+                        "footer";
+}
+
+
+
+
+a { color: inherit; } 
+
+.banner{
+    grid-area: banner;
+}
+
+.browser-title{
+    font-family: 'Figtree';
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.browser-title h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.browser-title h2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.catcard{
+    margin-top: 60px;
+    background-color: white;
+    width: 306px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Faint shadow */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Very light border */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    gap:40px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Faint shadow */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Very light border */
+    padding: 16px;
+    background: white;
+    margin-right: 72px;
+    
+}
+
+.card-details{
+    display: flex;
+    padding-left: 36px;
+}
+
+.card-details li{
+    color: #6C757D;
+    display: flex; 
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    gap:2px
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-middle{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-text h1{
+    font-size: 28px;
+}
+
+.card-text h3{
+    font-weight: 400;
+}
+.company-logos{
+    display: flex;
+    grid-area: company-logos;
+    background-color: black;
+    gap: 156px;
+    padding: 40px 72px;
+}
+    
+.category{
+    margin-top: 40px;
+    grid-area: category;
+    background-color:rgba(48, 150, 137,0.1);
+    padding-bottom: 120px;
+}
+
+.category-cards{
+    padding-left: 72px;
+    display: flex;
+    gap: 40px;
+}
+
+.counter{
+    font-family: 'Figtree';
+    display: flex;
+    margin-left: 72px;
+    margin-top: 86px;
+    gap:189px;  
+    margin-bottom: 60px;
+}
+
+.counter div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.counter-bold{
+    color:#309689;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.counter-semibold{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.counter div ul li{
+    width: 306px;
+}
+
+
+
+.description{
+    width: 300px; /* Set the width of the box */
+    height: 150px; /* Set the height of the box */
+    margin-left: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.email-input {
+    width: 306px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: black;
+    grid-area:footer;
+    color: white;
+    font-family: 'Inter';
+}
+
+
+
+.footer-info{
+    display: flex;
+    gap:122px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    
+}
+
+.f-title{
+    font-weight: 600;
+    font-size:20px;
+}
+
+.f-list{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+
+
+.header {
+    font-family: 'Figtree';
+    font-weight: 600;
+    padding: 26px 0px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    grid-area:header;
+    justify-content: space-between;
+}
+
+.logotipo {
+    display: flex;
+    align-items:center;
+}
+  
+.header div img {
+    margin-left: 72px;
+    margin-right: 10px; /* Adds some space between the logo and the text */
+}
+  
+.footer div img{
+    margin-right: 10px;
+}
+
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.header div p {
+    margin: 0; /* Removes default paragraph margins */
+}
+
+.info{
+    display: flex;
+    gap:86px;
+}
+
+.info-texts{
+    font-family: 'Figtree';
+    width: 600px;
+}
+.info-texts h1{
+    font-size: 50px;
+    margin-top: 93px;
+    margin-bottom: 40px;
+}
+.info-texts p{
+    margin-bottom: 60px;
+}
+
+.info-links{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.info-block{
+    margin-top: 120px;
+    grid-area: info-block;
+    
+}
+
+
+.in-label {
+    background-color: #309689;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.jobs{
+    
+    display: flex;
+    flex-direction: column;
+    grid-area: jobs;
+}
+
+#job-desc{
+    font-family: 'Lexend';
+}
+
+.jobs-title{
+    padding-top: 60px;
+    padding-left: 72px;
+    padding-right: 72px;
+    font-family: 'Figtree';
+}
+
+
+.jobs-title h1{
+    font-size: 50px ;
+}
+
+.jobs-title a{
+    font-size: 24px;
+    text-decoration: underline;
+    color:#309689;  
+    cursor:pointer;
+}
+
+.jobs-title ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.jobs-listing{
+    font-family: 'Figtree';
+    margin-top: 112px;
+    padding-left: 112px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.jobs-listing p{
+   background-color: rgba(48, 150, 137,0.1);
+   color:#309689;
+   border-radius: 8px;
+   padding: 10px;
+   margin-left: 40px;
+   margin-bottom: 24px;
+}
+
+.jobs-amount {
+    background-color: rgba(48, 150, 137,0.1);
+    color:#309689;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 24px;
+ }
+
+.opaque-label{
+    background-color: rgba(48, 150, 137,0.1);
+    color:#309689;
+    border-radius: 8px;
+    padding: 10px;
+ }
+
+li{list-style: none;}
+
+.legals{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+
+#login-bar{
+    margin-right: 72px;
+}
+
+#login-bar li {
+    display: flex;
+    align-items: center;
+}
+
+.logotipo{
+    font-weight: 600;
+    font-size:20px;
+}
+
+
+
+
+.main-menu{
+    display: flex;
+    gap: 20px;
+    font-size:16px;
+    
+}
+
+.main-menu li{
+    gap: 20px;
+}
+
+#news-desc{
+    font-family: 'Lexend';
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 350px;
+}
+
+
+
+.opaque{
+    opacity: 0.6;
+}
+
+.responsive-img1{
+    margin-left: 72px;
+    border-radius: 20px;
+}
+
+.responsive-img2{
+    width: 1296px;
+    margin-left: 72px;
+    border-radius: 20px;
+}
+
+
+.search-bar{
+    background-color: black;
+    color:white;
+    grid-area: search-bar;
+    font-family: 'Figtree';
+    padding: 100px 268px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title-Banner {
+    text-align: center;
+    background-color: black;
+    color:white;
+    grid-area: search-bar;
+    font-family: 'Figtree';
+    padding: 100px 268px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title-Banner h1 {
+    font-size: 70px; 
+}
+
+.search-bar h1{
+    font-size: 70px;
+}
+
+.search-bar h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.search-bar .job-search-bar{
+    align-self: center;
+}
+
+
+.suscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 50px;
+    background-color: #309689;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    .main {
+        display: grid;
+        grid-template-areas:"header"
+                            "footer";
+    }
+
+    .menu-bar{
+        display: none;
+    }
+
+    
+    .header div img {
+        margin-left: 20px;
+        margin-right: 10px; /* Adds some space between the logo and the text */
+    }
+
+    
+
+        .search-bar,
+        .company-logos,
+        .jobs,
+        .category,
+        .info-block {
+            display: none; /* Hide unused components */
+        }
+
+    .responsive-img1{
+        width: 353px;
+        height: 353px;
+    }
+    
+  }
