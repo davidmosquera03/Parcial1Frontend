@@ -69,7 +69,7 @@ a { color: inherit; }
 }
 
 .card-borderless {
-    width: 1296px;
+    width: 95%;
     background: white;
 }
 
@@ -366,17 +366,17 @@ a { color: inherit; }
     
 }
 
-.job-desc{
-    padding-left: 24px;
+.info+jobs+sidebar {
+    width: 1440px;
+    height: 2402px;
+    padding-top: 60px;
+    padding-right: 72px;
+    padding-bottom: 60px;
+    padding-left: 72px;
+    gap: 24px;
 }
 
-.job-desc h2{
-    font-weight: 600;
-}
 
-.job-desc h3{
-    font-weight: 400;
-}
 
 .job-details p{
     background-color: rgba(48, 150, 137,0.1);
