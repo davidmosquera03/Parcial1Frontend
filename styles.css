@@ -275,7 +275,7 @@ a { color: inherit; }
 .description{
     width: 300px; /* Set the width of the box */
     height: 150px; /* Set the height of the box */
-    margin-left: 72px;
+    
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -297,11 +297,14 @@ a { color: inherit; }
     grid-area:footer;
     color: white;
     font-family: 'Inter';
+    
 }
 
 
 
 .footer-info{
+    
+    margin-left: 5%;
     display: flex;
     gap:122px;
     padding-top: 100px;
@@ -330,24 +333,14 @@ a { color: inherit; }
     background-color: black;
     align-items: center;
     display: flex;
+    flex-direction: row;
     grid-area:header;
     justify-content: space-between;
+    
 }
 
-.logotipo {
-    display: flex;
-    align-items:center;
-}
-  
-.header div img {
-    margin-left: 72px;
-    margin-right: 10px; /* Adds some space between the logo and the text */
-}
-  
-.footer div img{
-    margin-right: 10px;
-}
 
+  
 .footer-ul{
     display: flex;
     flex-direction: column;
@@ -477,22 +470,36 @@ li{list-style: none;}
 }
 
 
-#login-bar{
-    margin-right: 72px;
-}
-
-#login-bar li {
+.login-bar{
+    margin-right: 5%;
     display: flex;
     align-items: center;
 }
 
+
 .logotipo{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-left: 5%;
     font-weight: 600;
     font-size:20px;
+    gap: 10px;
+}
+
+.logotipo2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-weight: 600;
+    font-size:20px;
+    gap: 10px;
 }
 
 
-
+.mobile-name{
+    display: none;
+}
 
 .main-menu{
     display: flex;
@@ -644,25 +651,57 @@ li{list-style: none;}
                             "footer";
     }
 
-    .menu-bar{
-        display: none;
+    body{
+        /*overflow-x: hidden;*/
     }
 
-    
-    .header div img {
-        margin-left: 20px;
-        margin-right: 10px; /* Adds some space between the logo and the text */
+    .header  {
+        max-width: 100vw;
     }
 
+   .footer-info{
+    margin-left: 0;
+    flex-direction: column;
+   }
+
+   .logotipo2{
+    margin: 0;
+    align-self: center;
+   }
+
+   .description{
+    align-self: center;
+    text-align: center;
+   }
+   .f-list{
+    text-align: center;
+   }
+
+   .newsletter{
+    align-self: center;
+    text-align: center;
+   }
+
+
+   .mobile-name{display:block;}
+
+   .desktop-name{display: none;}
+
+   .menu-bar{display: none;}
+
     
 
-        .search-bar,
-        .company-logos,
-        .jobs,
-        .category,
-        .info-block {
+
+   .search-bar,
+   .company-logos,
+   .jobs,
+   .category,
+   .info-block,
+   .banner,
+   .testimonials,
+   .blog {
             display: none; /* Hide unused components */
-        }
+    }
 
     .responsive-img1{
         width: 353px;
