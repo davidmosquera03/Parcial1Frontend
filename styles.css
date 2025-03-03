@@ -69,8 +69,8 @@ a { color: inherit; }
 }
 
 .card-borderless {
-    width: 95%;
-    background: white;
+    margin-right: 3%;
+    background: rgb(255, 255, 255);
 }
 
 .card-details{
@@ -302,13 +302,25 @@ a { color: inherit; }
     
 }
 
-
 .in-label {
     background-color: #309689;
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
     text-decoration: none;
+}
+
+.in-label-wide {
+    width: 20%;
+    background-color: #309689;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    align-content: center;
+    display: flex;
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
 }
 
 .jobs{
@@ -358,27 +370,16 @@ a { color: inherit; }
 
 .job-details{
     font-family: 'Figtree';
-    margin-top: 112px;
+    margin-top: 50px;
     padding-left: 50px;
     display: flex;
     flex-direction: column;
-    gap:24px;
+    gap:10%;
     
 }
 
-.info+jobs+sidebar {
-    width: 1440px;
-    height: 2402px;
-    padding-top: 60px;
-    padding-right: 72px;
-    padding-bottom: 60px;
-    padding-left: 72px;
-    gap: 24px;
-}
-
-
-
 .job-details p{
+    font-family: 'Figtree';
     background-color: rgba(48, 150, 137,0.1);
     color:#309689;
     border-radius: 8px;
@@ -386,6 +387,74 @@ a { color: inherit; }
     margin-left: 40px;
     margin-bottom: 24px;
  }
+
+ .infoJobsSidebar {
+    font-family: 'Figtree';
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2402px;
+    padding-top: 20px;
+    padding-right: 72px;
+    padding-bottom: 60px;
+    padding-left: 72px;
+    gap: 24px;
+}
+
+.info-jobs {
+    font-family: 'Figtree';
+    flex: 60%; /* Ajusta el tamaño según tus necesidades */
+}
+
+.infoBlock h1 {
+    font-family: 'Figtree';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    padding-bottom: 2%;
+}
+.infoBlock h2 {
+    font-family: 'Figtree';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.infoBlock h3 {
+    font-family: 'Figtree';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.infoBlock p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 1%;
+}
+
+.jobs {
+    flex: 40%; /* Ajusta el tamaño según tus necesidades */
+    background-color: #EBF5F4; /* Color de fondo para distinguir la barra lateral */
+}
+
+.side-bar {
+    font-family: 'Figtree';
+    flex: 40%; /* Ajusta el tamaño según tus necesidades */
+    background-color: #EBF5F4; /* Color de fondo para distinguir la barra lateral */
+    border-radius: 20px; /* Radio de borde */
+    padding: 30px; /* Espaciado interno */
+    margin-right: 7%;
+}
 
 .jobs-listing p{
    background-color: rgba(48, 150, 137,0.1);
@@ -438,9 +507,6 @@ li{list-style: none;}
     font-size:20px;
 }
 
-
-
-
 .main-menu{
     display: flex;
     gap: 20px;
@@ -461,8 +527,6 @@ li{list-style: none;}
     gap: 16px;
     max-width: 350px;
 }
-
-
 
 .opaque{
     opacity: 0.6;
