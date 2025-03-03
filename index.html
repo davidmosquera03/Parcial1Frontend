@@ -54,7 +54,7 @@
                   <div class="circle-logos">
                     <div class="logotipo3"> 
                         <div class="circle">
-                            <img src="img/people.svg" height="28" width="28"> 
+                            <img class="circle-logo" src="img/people.svg" > 
                         </div>
                         
                         <div class="circle-caption">
@@ -64,7 +64,7 @@
                     </div>
                     <div class="logotipo3"> 
                         <div class="circle">
-                            <img src="img/people.svg" height="28" width="28"> 
+                            <img class="circle-logo" src="img/people.svg" > 
                         </div>
                         <div class="circle-caption">
                             <h3>10,250</h3>
@@ -73,7 +73,7 @@
                     </div>
                     <div class="logotipo3"> 
                         <div class="circle">
-                            <img src="img/people.svg" height="28" width="28"> 
+                            <img class="circle-logo" src="img/people.svg"> 
                         </div>
                         <div class="circle-caption">
                             <h3>18,400</h3>
@@ -84,18 +84,26 @@
             </section>
 
             <section class="company-logos">
-                <img src="img/spotify-logo.svg" width="140" height="48" alt="spotify-logo">
-                <img src="img/slack-logo.svg" width="121" height="48" alt="slack-logo">
-                <img src="img/adobe-logo.svg" width="133" height="48" alt="adobe-logo">
-                <img src="img/asana-logo.svg" width="127" height="48" alt="asana-logo">
-                <img src="img/linear-logo.svg" width="148" height="48" alt="linear-logo">
+                <div class="mobile-company">
+                    <img src="img/slack-logo.svg" width="121" height="48" alt="slack-logo">
+                    <img src="img/adobe-logo.svg" width="133" height="48" alt="adobe-logo">
+                    <img src="img/asana-logo.svg" width="127" height="48" alt="asana-logo">
+                </div>
+                <div class="desktop-company">
+                    <img src="img/spotify-logo.svg" width="140" height="48" alt="spotify-logo">
+                    <img src="img/slack-logo.svg" width="121" height="48" alt="slack-logo">
+                    <img src="img/adobe-logo.svg" width="133" height="48" alt="adobe-logo">
+                    <img src="img/asana-logo.svg" width="127" height="48" alt="asana-logo">
+                    <img src="img/linear-logo.svg" width="148" height="48" alt="linear-logo">
+                </div>
+                
             </section>
             <section class="jobs">
                 <div class="jobs-title">
                     <h1> Recents Jobs Available</h1>
                     <ul>
                         <li><p>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet...</p></li>
-                        <li><a>View all</a> </li>
+                        <li><a id="view-all">View all</a> </li>
                     </ul>
                 </div>
                 <div class="jobs-listing">
@@ -120,7 +128,6 @@
                             </ul>
                             <a href="#" class="in-label">Job Details</a>
                         </div>
-                        
                     </div>
                     <div class="card">
                         <div class="card-top">
@@ -145,6 +152,7 @@
                         </div>
                     </div>
                 </div>
+                <a id="m-view-all">View all</a>
             </section>
             
             <section class="category">
@@ -192,32 +200,24 @@
                             <a href="#" class="in-label">Search Job</a>
                             <a href="#">Learn more</a>
                         </div>
-                        
-                        
                     </div>
                 </div>
                 <div class="counter">
-                    <div>
                         <ul>
                             <li class="counter-bold">12k+</li>
                             <li class="counter-semibold">Clients Worldwide</li>
                             <li>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</li>
                         </ul>
-                    </div>
-                    <div>
                         <ul>
                             <li class="counter-bold">20k+</li>
                             <li class="counter-semibold">Active Resume</li>
                             <li>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</li>
                         </ul>
-                    </div>
-                    <div>
                         <ul>
                             <li class="counter-bold">18k+</li>
                             <li class="counter-semibold">Companies</li>
                             <li>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</li>
                         </ul>
-                    </div>
                 </div>
             </section>
 
@@ -319,12 +319,12 @@
                     <h1> News and Blogs </h1>
                     <ul>
                         <li><p>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet...</p></li>
-                        <a>View all</a>
+                        <a id="blog-view-all">View all</a>
                     </ul>
                 </div>
                 <div class="blog-cards">
                     <div class="blogcard">
-                        <div class="image-container">
+                        <div class="image-container2">
                             <img class="responsive-img3" src="img/img-blog1.jpg" >
                             <div class="text-overlay1">
                                 <p class="in-label">News</p>
@@ -340,8 +340,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="blogcard">
-                        <div class="image-container">
+                    <div class="blogcard" id=>
+                        <div class="image-container2">
                             <img  class="responsive-img3" src="img/img-blog2.jpg" >
                             <div class="text-overlay1">
                                 <p class="in-label">News</p>
