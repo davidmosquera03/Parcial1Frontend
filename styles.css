@@ -55,7 +55,7 @@ a { color: inherit; }
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    gap:40px;
+    gap:50px;
 }
 
 .card {
@@ -76,6 +76,7 @@ a { color: inherit; }
 .card-details{
     display: flex;
     padding-left: 36px;
+    gap: 20px;
 }
 
 .card-details li{
@@ -84,7 +85,7 @@ a { color: inherit; }
     font-weight: 600;
     font-size: 16px;
     align-items: center;
-    gap:2px
+    gap:10px
 }
 
 .card-top{
@@ -366,6 +367,40 @@ a { color: inherit; }
     gap:24px;
 }
 
+.jobs-listing-sub{
+    font-family: 'Figtree';
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.jobs-listing-sub p{
+    font-family: 'Figtree';
+    background-color: rgba(48, 150, 137,0.1);
+    color:#309689;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 24px;
+ }
+
+ .jobs-listing-sub h4{
+    font-family: Figtree;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+ }
+
+ .jobs-listing-sub h2{
+    font-family: Figtree;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 0%;
+ }
+
 .job-details{
     font-family: 'Figtree';
     margin-top: 50px;
@@ -384,6 +419,15 @@ a { color: inherit; }
     padding: 10px;
     margin-left: 40px;
     margin-bottom: 24px;
+ }
+
+ .job-details h1{
+    font-family: 'Figtree';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    padding-bottom: 2%;
  }
 
 .Tags h1{
@@ -419,8 +463,6 @@ a { color: inherit; }
     flex-direction: row;
     gap: 24px;
     padding-right: 72px;
-    padding-bottom: 60px;
-    padding-top: 0%;
  }
 
  .social-media h1{
@@ -495,24 +537,114 @@ a { color: inherit; }
 }
 
 .infoBlock li img {
-    margin-right: 10px; /* Ajusta este valor según tus necesidades */
-    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
-    margin-right: 2%; /* Añade un poco de espacio entre la imagen y el texto */
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-right: 2%;
 }
 
 .jobs {
-    flex: 40%; /* Ajusta el tamaño según tus necesidades */
-    background-color: #EBF5F4; /* Color de fondo para distinguir la barra lateral */
+    flex: 40%;
+    background-color: #EBF5F4;
 }
 
 .side-bar {
     font-family: 'Figtree';
     height: fit-content;
-    flex: 40%; /* Ajusta el tamaño según tus necesidades */
-    background-color: #EBF5F4; /* Color de fondo para distinguir la barra lateral */
-    border-radius: 20px; /* Radio de borde */
-    padding: 30px; /* Espaciado interno */
+    flex: 47%;  
     margin-right: 7%;
+}
+
+.side-bar h1{
+    font-family: Figtree;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+
+}
+
+.TopBar {
+    background-color: #EBF5F4;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 10%;
+}
+
+.BottomBar {
+    background-color: #EBF5F4;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.BottomBar a{
+    margin-top: 5%;
+    background-color: #309689;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.InputWithIcon {
+    margin-top: 10%;
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.InputWithIcon img {
+    margin-right: 10px; 
+}
+
+.InputWithIcon input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+    font-size: 16px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #000;
+}
+
+.InputWithIconLarge {
+    margin-top: 10%;
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: top;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.InputWithIconLarge img {
+    margin-right: 10px;
+    margin-top: 11px;
+}
+
+.InputWithIconLarge textarea {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+    font-size: 16px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #000;
+    resize: none;
+    overflow: hidden;
+    line-height: 1.5;
 }
 
 .jobs-listing p{
