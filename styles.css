@@ -750,6 +750,7 @@ li{list-style: none;}
                         "how-works"
                         "video"
                         "faq"
+                        "work-best"
                         "blog"
                         "footer";
 }
@@ -979,7 +980,50 @@ li{list-style: none;}
     gap: 20px;
 }
 
+.work-best{
+    margin-top: 5%;
+    display: flex;
+    grid-area: work-best;
+    padding: 0% 5%;
+    gap: 20px;
+}
 
+
+
+.features-work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.content-work{
+    padding-top: 5%;
+    font-family: 'Figtree';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-work h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-work p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.feature p{
+    font-size: 20px;
+}
 
 @media (max-width: 600px) {
 
