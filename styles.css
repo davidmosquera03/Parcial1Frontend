@@ -166,6 +166,13 @@ a { color: inherit; }
     justify-content: center;
     border-radius: 20px;
     gap:40px;
+    font-family: 'Figtree';
+}
+
+
+.catcard h1{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .review{
@@ -231,7 +238,7 @@ a { color: inherit; }
     font-weight: 600;
     font-size: 16px;
     align-items: center;
-    gap:2px
+    gap:1rem;
 }
 
 .card-top{
@@ -283,6 +290,7 @@ a { color: inherit; }
     padding-bottom: 120px;
     padding-bottom: 8%;
 }
+
 
 .category-cards{
     padding-left: 5%;

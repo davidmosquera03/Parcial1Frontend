@@ -1,2 +1,10 @@
-<?xml version="1.0" ?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10.5H14M12 8.5V12.5M8.25 5H15.75C16.4404 5 17 5.58763 17 6.3125V19L12 15.5L7 19V6.3125C7 5.58763 7.55964 5 8.25 5Z" stroke="#464455" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_2093_1230" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<path d="M0 1.90735e-06H24V24H0V1.90735e-06Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2093_1230)">
+<path d="M18.1875 0.937502H5.8125C4.77694 0.937502 3.9375 1.77521 3.9375 2.80856V22.2656L12 17.0156L20.0625 22.2406V2.80856C20.0625 1.77521 19.2231 0.937502 18.1875 0.937502Z" stroke="#6C757D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M12 4.6875V13.125" stroke="#6C757D" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M7.78125 8.90625H16.2188" stroke="#6C757D" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+</g>
+</svg>
