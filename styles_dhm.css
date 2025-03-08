@@ -90,22 +90,26 @@ a { color: inherit; }
 .blog{
     grid-area: blog;
 }
+
 .blog-cards{
     margin-bottom: 60px;
     display: flex;
     gap:24px
 }
+
 .blogcard{
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+
 .blog-caption{
     display: flex;
     flex-direction: column;
     gap: 32px;
     font-family: 'Inter';
 }
+
 .blog-caption p{
     color: gray;
     font-size: 16px;
@@ -114,16 +118,19 @@ a { color: inherit; }
     margin-left: 72px;
     margin-top: 60px;
 }
+
 .blog-caption h2{
     width: 600px;
     font-size: 24px;
     font-weight: 600;
 }
+
 .blog-caption h3{
     color: #309689;
     font-size: 16px;
     font-weight: 600;
 }
+
 .blog-caption div{
     display: flex;
     gap: 12px;
@@ -159,6 +166,13 @@ a { color: inherit; }
     justify-content: center;
     border-radius: 20px;
     gap:40px;
+    font-family: 'Figtree';
+}
+
+
+.catcard h1{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .review{
@@ -224,7 +238,7 @@ a { color: inherit; }
     font-weight: 600;
     font-size: 16px;
     align-items: center;
-    gap:2px
+    gap:1rem;
 }
 
 .card-top{
@@ -276,6 +290,7 @@ a { color: inherit; }
     padding-bottom: 120px;
     padding-bottom: 8%;
 }
+
 
 .category-cards{
     padding-left: 5%;
@@ -385,9 +400,7 @@ a { color: inherit; }
     justify-content: space-between;
     
 }
-.header div p {
-    margin: 0; /* Removes default paragraph margins */
-}
+
 
   
 .footer-ul{
@@ -395,7 +408,9 @@ a { color: inherit; }
     flex-direction: column;
     gap:16px;
 }
-
+.header div p {
+    margin: 0; /* Removes default paragraph margins */
+}
 
 .info{
     display: flex;
@@ -638,15 +653,18 @@ li{list-style: none;}
     justify-content: center;
     gap: 40px;
 }
+
 .search-bar h1{
     font-size: 70px;
     text-align: center;
 }
+
 .search-bar h2{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
+
 .search-bar .job-search-bar{
     align-self: center;
 }
@@ -738,6 +756,9 @@ li{list-style: none;}
                         "search-bar"
                         "info-block4"
                         "how-works"
+                        "video"
+                        "faq"
+                        "work-best"
                         "blog"
                         "footer";
 }
@@ -778,6 +799,7 @@ li{list-style: none;}
     height: 500px;
     border-radius: 20px;
 }
+
 
 .how-works{
     grid-area: how-works;
@@ -821,10 +843,213 @@ li{list-style: none;}
    width: 240px;
 }
 
+.video{
+    grid-area: video;
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 20%;
+    left: 30%    ;
+    color: white;
+  }
 
 
+.image-container3{
+    position: relative;
+    padding-left: 8%;
+}
+
+.responsive-img4{
+    width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.video-caption{
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    height: 20%;
+    color: white;
+    border-radius: 20px;
+    width: 1200px;
+    display: flex;
+    gap: 65px;
+}
+
+
+.info-texts-video{
+    font-family: 'Figtree';
+    width: 500px;
+    text-align: center;
+}
+
+
+.info-texts-img{
+    height: 80px;
+    width: 80px;
+    align-self: center;
+}
+
+
+.info-texts-video h1{
+    font-size: 50px;
+    margin-top: 30px;
+    width: 600px;
+}
+
+
+
+.number-caption{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 300px;
+    align-items: center;
+    padding-left: 4%;
+    font-family: 'Figtree';
+}
+
+
+
+.number-text h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.number-text p{
+    color: #309689;
+    font-weight: 600;
+}
+
+.play{
+    height: 120px;
+}
+
+.faq{
+    margin-top: 5%;
+    grid-area: faq;
+    font-family: 'Inter';
+    
+    
+}
+
+.faq-enum{
+    color: gray;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.faq-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.faq-cards{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.faq-cards li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(48, 150, 137,0.5);
+}
+
+.add-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.faq-selected{
+    justify-content: center;
+    background-color: rgba(48, 150, 137,0.1);
+    border-radius: 20px;
+    margin: 0% 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-desc{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-unselected{
+    padding: 2% 0%;
+    margin: 0% 4%;
+}
+
+.faq-caption{
+    display: flex;
+    gap: 20px;
+}
+
+.work-best{
+    margin-top: 5%;
+    display: flex;
+    grid-area: work-best;
+    padding: 0% 5%;
+    gap: 20px;
+}
+
+
+
+.features-work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.content-work{
+    padding-top: 5%;
+    font-family: 'Figtree';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-work h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-work p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.feature p{
+    font-size: 20px;
+}
+
+#mobile-logo{
+    display: none;
+}
 
 @media (max-width: 600px) {
+
+
+
+    #desktop-logo{
+        display: none;
+    }
+
+    #mobile-logo{
+        display: block;
+    }
+
+    
 
      body{
         overflow-x: hidden;
@@ -880,7 +1105,7 @@ li{list-style: none;}
                         "testimonials"
                         "blog"
                         "footer";
- }
+}
    
    .banner {display: none; /* Hide unused components */}
 
@@ -1153,4 +1378,50 @@ li{list-style: none;}
         padding:0% 5%;
     }
 
+    .image-container3{
+        padding-left: 15%;
+    }
+    .responsive-img4{
+        width: 393px;
+        height: 800px;
+    }
+    
+    .text-overlay2 {
+        position: absolute;
+        top: 15%;
+        left: 5%    ;
+        color: white;
+      }
+
+      .info-texts-video h1{
+        font-size: 28px;
+        width: 300px;
+        margin-left: 100px;
+      }
+
+      .video-caption{
+        background-color: black;
+        position: absolute;
+        bottom: 0%;
+        height: 20%;
+        color: white;
+        border-radius: 0px;
+        width: 393px;
+        height: 400px;
+    }
+
+    .video-caption{
+        flex-direction: column;
+    }
+
+    .work-best{display: none;}
+
+    .faq{
+        padding: 0% 10%;
+    }
+
+    .faq-title{
+        font-size: 20px;
+        font-weight: 600;
+    }
   }

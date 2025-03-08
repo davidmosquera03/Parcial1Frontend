@@ -3,9 +3,495 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_dhm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <main class="main">
+            <header class="header">
+                <div class="logotipo">
+                    <img src="img/logo.svg" id="desktop-logo" alt="a logo">
+                    <img src="img/logo-mobile.svg" id="mobile-logo" alt="a logo"> 
+                    <p class="desktop-name">Job Portal</p>
+                    <p class="mobile-name">Jobs</p>
+                </div>
+                <nav class="menu-bar" aria-label="menu-bar">
+                    <ul class="main-menu" id="page-bar">
+                        <li><a >Home</a></li>
+                        <li><a>Jobs</a></li>
+                        <li ><a>About us</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </nav>
+                <nav class="login-bar" aria-label="login-bar">
+                    <ul class="main-menu">
+                        <li><a>Login</a></li>
+                        <li><a href="#" class="in-label">Register</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <section class="search-bar"  aria-label="serch-job-bar">
+                <div class="search-title">
+                    <h1>Find Your Dream Job Today!</h1>
+                    <h2>Connecting Talent with Opportunity: Your Gateway to Career Success </h2>
+                </div>
+                <div class="search-container">
+                    <input class="search-jobtitle"  type="text" placeholder="Job Title or Company">
+                    <select>
+                        <option>Select Location</option>
+                      </select>
+                    <select>
+                      <option>Select Category</option>
+                    </select>
+                    <button>
+                      <p>Search Job</p>
+                    </button>
+                  </div>
+                  <div class="circle-logos">
+                    <div class="logotipo3"> 
+                        <div class="circle">
+                            <img class="circle-logo" src="img/briefcase2.svg" > 
+                        </div>
+                        
+                        <div class="circle-caption">
+                            <h3>25,850</h3>
+                            <p>Jobs</p>
+                        </div>
+                    </div>
+                    <div class="logotipo3"> 
+                        <div class="circle">
+                            <img class="circle-logo" src="img/people.svg" > 
+                        </div>
+                        <div class="circle-caption">
+                            <h3>10,250</h3>
+                            <p>Candidates</p>
+                        </div>
+                    </div>
+                    <div class="logotipo3"> 
+                        <div class="circle">
+                            <img class="circle-logo" src="img/building 1.svg"> 
+                        </div>
+                        <div class="circle-caption">
+                            <h3>18,400</h3>
+                            <p>Companies</p>
+                        </div>
+                    </div>
+                  </div>
+            </section>
+
+            <section class="company-logos">
+                <div class="mobile-company">
+                    <img src="img/slack-logo.svg" width="121" height="48" alt="slack-logo">
+                    <img src="img/adobe-logo.svg" width="133" height="48" alt="adobe-logo">
+                    <img src="img/asana-logo.svg" width="127" height="48" alt="asana-logo">
+                </div>
+                <div class="desktop-company">
+                    <img src="img/spotify-logo.svg" width="140" height="48" alt="spotify-logo">
+                    <img src="img/slack-logo.svg" width="121" height="48" alt="slack-logo">
+                    <img src="img/adobe-logo.svg" width="133" height="48" alt="adobe-logo">
+                    <img src="img/asana-logo.svg" width="127" height="48" alt="asana-logo">
+                    <img src="img/linear-logo.svg" width="148" height="48" alt="linear-logo">
+                </div>
+                
+            </section>
+            <section class="jobs">
+                <div class="jobs-title">
+                    <h1> Recents Jobs Available</h1>
+                    <ul>
+                        <li><p>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet...</p></li>
+                        <li><a id="view-all">View all</a> </li>
+                    </ul>
+                </div>
+                <div class="jobs-listing" aria-label="jobs-listing">
+                    <div class="card">
+                        <div class="card-top">
+                            <p>10 min. ago</p>
+                            <img src="img/bookmark.svg" width="40" height="40" alt="bookmark">
+                        </div>
+                        <div class="card-middle">
+                            <img src="img/job-logo.svg" width="40" height="50" alt="time">
+                            <div class="card-text">
+                                <h1> Forward Security Director</h1>
+                                <h3>Bauch, Schuppe and Schulist Co</h3>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <ul class="card-details">
+                                <li><img src="img/briefcase3.svg" width="24" height="24">Hotels & Tourism</li>
+                                <li><img src="img/time.svg" width="24" height="24">Full time</li>
+                                <li><img src="img/wallet.svg" width="24" height="24">$40000-$42000</li>
+                                <li><img src="img/location.svg" width="24" height="24">New-York, USA</li>
+                            </ul>
+                            <a href="#" class="in-label" aria-label="job-detail-button">Job Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <p>12 min. ago</p>
+                            <img src="img/bookmark.svg" width="40" height="40" alt="bookmark">
+                        </div>
+                        <div class="card-middle">
+                            <img src="img/job-logo1.svg" width="40" height="50">
+                            <div class="card-text">
+                                <h1> Regional Creative Facilitator</h1>
+                                <h3>Wisozk - Becker Co</h3>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <ul class="card-details">
+                                <li><img src="img/briefcase3.svg" width="24" height="24">Media</li>
+                                <li><img src="img/time.svg" width="24" height="24" >Part time</li>
+                                <li><img src="img/wallet.svg" width="24" height="24">$28000-$32000</li>
+                                <li><img src="img/location.svg" width="24" height="24">Los- Angeles, USA</li>
+                            </ul>
+                            <a href="#" class="in-label" aria-label="job-detail-button">Job Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <p>15 min. ago</p>
+                            <img src="img/bookmark.svg" width="40" height="40" alt="bookmark">
+                        </div>
+                        <div class="card-middle">
+                            <img src="img/job-logo2.svg" width="40" height="50">
+                            <div class="card-text">
+                                <h1> Internal Integration Planner</h1>
+                                <h3>Mraz, Quigley and Feest Inc.</h3>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <ul class="card-details">
+                                <li><img src="img/briefcase3.svg" width="24" height="24">Construction</li>
+                                <li><img src="img/time.svg" width="24" height="24" >Full time</li>
+                                <li><img src="img/wallet.svg" width="24" height="24">$48000-$50000</li>
+                                <li><img src="img/location.svg" width="24" height="24">Texas, USA</li>
+                            </ul>
+                            <a href="#" class="in-label" aria-label="job-detail-button">Job Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <p>24 min. ago</p>
+                            <img src="img/bookmark.svg" width="40" height="40" alt="bookmark">
+                        </div>
+                        <div class="card-middle">
+                            <img src="img/job-logo3.svg" width="40" height="50">
+                            <div class="card-text">
+                                <h1> District Intranet Director</h1>
+                                <h3>VonRueden - Weber Co</h3>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <ul class="card-details">
+                                <li><img src="img/briefcase3.svg" width="24" height="24">Commerce</li>
+                                <li><img src="img/time.svg" width="24" height="24" >Full time</li>
+                                <li><img src="img/wallet.svg" width="24" height="24">$42000-$48000</li>
+                                <li><img src="img/location.svg" width="24" height="24">Florida, USA</li>
+                            </ul>
+                            <a href="#" class="in-label" aria-label="job-detail-button">Job Details</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <p>26 min. ago</p>
+                            <img src="img/bookmark.svg" width="40" height="40" alt="bookmark">
+                        </div>
+                        <div class="card-middle">
+                            <img src="img/job-logo4.svg" width="40" height="50">
+                            <div class="card-text">
+                                <h1> Corporate Tactics Facilitator</h1>
+                                <h3>Cormier, Turner and Flatley Inc</h3>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <ul class="card-details">
+                                <li><img src="img/briefcase3.svg" width="24" height="24">Commerce</li>
+                                <li><img src="img/time.svg" width="24" height="24" >Full time</li>
+                                <li><img src="img/wallet.svg" width="24" height="24">$38000-$40000</li>
+                                <li><img src="img/location.svg" width="24" height="24">Boston, USA</li>
+                            </ul>
+                            <a href="#" class="in-label" aria-label="job-detail-button">Job Details</a>
+                        </div>
+                    </div>
+                </div>
+                <a id="m-view-all">View all</a>
+            </section>
+            
+            <section class="category">
+                <div class="browser-title">
+                    <h1> Browse By Category</h1>
+                    <h2>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum id scelerisque</h2>
+                </div>
+                <div class="category-cards">
+                    <div class="catcard">
+                        <img src="img/agriculture.svg" height="40" width="40">
+                        <h1>Agriculture</h1>
+                        <p class="opaque-label">1254 Jobs</p>
+                    </div>
+                    <div class="catcard">
+                        <img src="img/metal.svg" height="40" width="40">
+                        <h1>Metal production</h1>
+                        <p class="opaque-label">816 Jobs</p>
+                    </div>
+                    <div class="catcard">
+                        <img src="img/commerce.svg" height="40" width="40">
+                        <h1>Commerce</h1>
+                        <p class="opaque-label">2082 Jobs</p>
+                    </div>
+                    <div class="catcard">
+                        <img src="img/construction.svg" height="40" width="40">
+                        <h1>Construction</h1>
+                        <p class="opaque-label">1520 Jobs</p>
+                    </div>
+                </div>
+                <div class="category-cards">
+                    <div class="catcard">
+                        <img src="img/hotel.svg" height="40" width="40">
+                        <h1>Hotels & Tourism</h1>
+                        <p class="opaque-label">1022 Jobs</p>
+                    </div>
+                    <div class="catcard">
+                        <img src="img/education.svg" height="40" width="40">
+                        <h1>Education</h1>
+                        <p class="opaque-label">1496 Jobs</p>
+                    </div>
+                    <div class="catcard">
+                        <img src="img/financial.svg" height="40" width="40">
+                        <h1>Financial Services</h1>
+                        <p class="opaque-label">1529 Jobs</p>
+                    </div>
+                    <div class="catcard">
+                        <img src="img/transport.svg" height="40" width="40">
+                        <h1>Transport</h1>
+                        <p class="opaque-label">1244 Jobs</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-block">
+                <div class="info">
+                    <img class="responsive-img1" src="img/info-blockimage.jpg" width="550" height="514">
+                    <div class="info-texts">
+                        <h1>Good Life Begins with A Good Company</h1>
+                        <p>
+                            Ultricies purus dolor viverra mi laoreet at cursus justo.
+                             Ultrices purus diam egestas amet faucibus tempor blandit. 
+                             Elit velit mauris aliquam est diam. Leo sagittis consectetur 
+                             diam morbi erat aenean. Vulputate praesent congue faucibus in 
+                             euismod feugiat euismod volutpat
+                        </p>
+                        <div class="info-links">
+                            <a href="#" class="in-label">Search Job</a>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter">
+                        <ul>
+                            <li class="counter-bold">12k+</li>
+                            <li class="counter-semibold">Clients Worldwide</li>
+                            <li>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</li>
+                        </ul>
+                        <ul>
+                            <li class="counter-bold">20k+</li>
+                            <li class="counter-semibold">Active Resume</li>
+                            <li>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</li>
+                        </ul>
+                        <ul>
+                            <li class="counter-bold">18k+</li>
+                            <li class="counter-semibold">Companies</li>
+                            <li>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum</li>
+                        </ul>
+                </div>
+            </section>
+
+            <section class="banner">
+                <div class="image-container">
+                    <img class="responsive-img2" src="img/banner.png">
+                    <div class="text-overlay">
+                        <div class="info-texts">
+                            <h1>Create A Better Future For Yourself</h1>
+                            <p class="banner-p">
+                                At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. 
+                                Blandit a massa elementum id scelerisque rhoncus
+                            </p>
+                            <div class="info-links">
+                                <a href="#" class="in-label">Search Job</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <div class="testimonials-title">
+                    <h1> Testimonials From Our Customers</h1>
+                    <h2>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum id scelerisque</h2>
+                </div>
+                <div class="review-cards">
+                    <div class="review">
+                        <div class="review-top">
+                            <img src="img/5stars.svg" width="124" height="24" alt="5-stars">
+                            <h1>Amazing services</h1>
+                            <p> Metus faucibus sed turpis lectus feugiat tincidunt. 
+                                Rhoncus sed tristique in dolor. Mus etiam et vestibulum venenatis 
+                            </p>
+                        </div>
+                        
+                        <div class="quotes">
+                            <img  src="img/quotes.svg" width="60" height="60">
+                        </div>
+                        
+                        <div class="reviewer">
+                                <img src="img/avatar.jpg" width="64" height="64">
+                            <div>
+                                <h3> Marco Kihn</h3>
+                            <p>Happy Client</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-top">
+                            <img src="img/5stars.svg" width="124" height="24" alt="5-stars">
+                            <h1>Everything simple </h1>
+                            <p> Mus etiam et vestibulum venenatis viverra ut. Elit morbi bibendum ullamcorper 
+                                augue faucibus 
+                            </p>
+                        </div>
+                        
+                        <div class="quotes">
+                            <img  src="img/quotes.svg" width="60" height="60">
+                        </div>
+                        
+                        <div class="reviewer">
+                                <img src="img/avatar2.png" width="64" height="64">
+                            <div>
+                                <h3> Kristin Hester</h3>
+                            <p>Happy Client</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-top">
+                            <img src="img/5stars.svg" width="124" height="24" alt="5-stars">
+                            <h1>Awesome, thank you!</h1>
+                            <p> Rhoncus sed tristique in dolor. Mus etiam et vestibulum venenatis viverra ut.
+                                 Elit morbi bibendum ullamcorper augue faucibus. Nulla et tempor montes
+                            </p>
+                        </div>
+                        
+                        <div class="quotes">
+                            <img  src="img/quotes.svg" width="60" height="60">
+                        </div>
+                        
+                        <div class="reviewer">
+                                <img src="img/avatar.jpg" width="64" height="64">
+                            <div>
+                                <h3> Zion Cisneros</h3>
+                            <p>Happy Client</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog">
+                <div class="jobs-title">
+                    <h1> News and Blogs </h1>
+                    <ul>
+                        <li><p>At eu lobortis pretium tincidunt amet lacus ut aenean aliquet...</p></li>
+                        <a id="blog-view-all">View all</a>
+                    </ul>
+                </div>
+                <div class="blog-cards">
+                    <div class="blogcard">
+                        <div class="image-container2">
+                            <img class="responsive-img3" src="img/img-blog1.jpg" alt="blog1-image" >
+                            <div class="text-overlay1">
+                                <p class="in-label">News</p>
+                            </div>
+                        </div>
+                        <div class="blog-caption">
+                            <p>30 march 2024</p>
+                            <h2>Revitalizing Workplace Morale: 
+                                Innovative Tactics for Boosting Employee Engagement in 2024</h2>
+                            <div>
+                                <h3>Read more</h3>
+                                <img src="img/arrow-right.svg" width="20" height="20" alt="blog2-image" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blogcard" id=>
+                        <div class="image-container2">
+                            <img  class="responsive-img3" src="img/img-blog2.jpg" >
+                            <div class="text-overlay1">
+                                <p class="in-label">News</p>
+                            </div>
+                        </div>
+                        <div class="blog-caption">
+                            <p>30 march 2024</p>
+                            <h2>How to avoid the top six most common job interview mistakes</h2>
+                            <div>
+                                <h3>Read more</h3>
+                                <img src="img/arrow-right.svg" width="20" height="20" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-info">
+                    <div class="description">
+                        <div class="logotipo2">
+                            <img src="img/logo.svg" alt="a logo"> 
+                            <p>Job</p>
+                        </div>
+                        <p id="job-desc">Quis enim pellentesque viverra tellus eget malesuada facilisis. Congue nibh vivamus aliquet nunc mauris dui nullam et.</p>
+                    </div>
+                    <div class="f-list">
+                        <p class="f-title">Company</p>
+                        <ul class="footer-ul">
+                            <li><a>About us</a></li>
+                            <li><a>Our Team</a></li>
+                            <li><a>Partners</a></li>
+                            <li><a>For Candidates</a></li>
+                            <li><a>For Employers</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-list">
+                        <p class="f-title">Job Categories</p>
+                        <ul class="footer-ul">
+                            <li><a>Telecomunications</a></li>
+                            <li><a>Hotels & Tourism</a></li>
+                            <li><a>Construction</a></li>
+                            <li><a>Education</a></li>
+                            <li><a>Financial Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter">
+                        <p class="f-title">Newsletter</p>
+                        <p id="news-desc">Eu nunc pretium vitae platea. Non netus elementum vulputate </p>
+                        <input class="email-input" type="email" placeholder="Email Address">
+                        <a href=# class="suscribe">Suscribe now</a>
+                    </div>
+                </div>
+                
+                <div class="legals">
+                    <p class="opaque">© Copyright Job Portal 2024. Designed by Figma guru</p>
+                    <div>
+                        <a>Privacy Policy<a>
+                        </a> Terms & Conditions</a>
+                    </div>
+                </div>
+            </footer>
+    </main>
 </body>
 </html>
