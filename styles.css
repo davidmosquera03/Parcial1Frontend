@@ -1033,11 +1033,21 @@ li{list-style: none;}
     font-size: 20px;
 }
 
+#mobile-logo{
+    display: none;
+}
+
 @media (max-width: 600px) {
 
 
 
+    #desktop-logo{
+        display: none;
+    }
 
+    #mobile-logo{
+        display: block;
+    }
 
     
 
