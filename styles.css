@@ -1066,6 +1066,29 @@ li{list-style: none;}
         flex-direction: column;  
     }
 
+    .jobList{
+        font-family: 'Figtree';
+    }
+
+    .sidebar-list {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    
+    .sidebar2 {
+        flex: 1; /* Ajusta el tamaño según tus necesidades */
+        background-color: #EBF5F4;
+        border-radius: 20px; /* Color de fondo para distinguir la barra lateral */
+        padding: 20px; /* Espaciado interno */
+    }
+    
+    .jobList {
+        flex: 3; /* Ajusta el tamaño según tus necesidades */
+        background-color: #ffffff; /* Color de fondo para distinguir el contenido principal */
+        padding: 20px; /* Espaciado interno */
+    }
+
     .card-borderless {
         margin-left: 5%;
         margin-right: 7%;
