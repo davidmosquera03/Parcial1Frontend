@@ -3,7 +3,7 @@
     padding: 0;
   }
 
-.main{
+.main5{
     display: grid;
     grid-template-areas:"header"
                         "search-bar"
@@ -362,7 +362,7 @@ a { color: inherit; }
 
    .menu-bar{display: none;}
 
-   .main {
+   .main5 {
     display: grid;
     grid-template-areas:"header"
                         "search-bar"
