@@ -563,6 +563,23 @@ a { color: inherit; }
         margin-right: 3%;
     }
 
+    .jobList {
+        font-family: 'Figtree';
+        flex: 3; /* Ajusta el tamaño según tus necesidades */
+        background-color: #ffffff; /* Color de fondo para distinguir el contenido principal */
+        padding: 20px; /* Espaciado interno */
+    }
+
+    .jobList p{
+        font-family: 'Figtree';
+        background-color: rgba(48, 150, 137,0.1);
+        color:#309689;
+        border-radius: 8px;
+        padding: 10px;
+        margin-left: 40px;
+        margin-bottom: 24px;
+     }
+
     .social-media {
         font-family: 'Figtree';
         display: flex;
@@ -598,6 +615,22 @@ a { color: inherit; }
     letter-spacing: 0%;
     padding-bottom: 2%;
  }
+
+ .sidebar-list {
+    font-family: 'Figtree';
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.sidebar2 {
+    margin-left: 2%;
+    flex: 1; /* Ajusta el tamaño según tus necesidades */
+    background-color: #EBF5F4;
+    border-radius: 20px; /* Color de fondo para distinguir la barra lateral */
+    padding: 20px; /* Espaciado interno */
+}
 
 .Tags h1{
     padding-top: 2%;
@@ -1064,29 +1097,6 @@ li{list-style: none;}
         font-family: 'Figtree';
         display: flex;
         flex-direction: column;  
-    }
-
-    .jobList{
-        font-family: 'Figtree';
-    }
-
-    .sidebar-list {
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-    }
-    
-    .sidebar2 {
-        flex: 1; /* Ajusta el tamaño según tus necesidades */
-        background-color: #EBF5F4;
-        border-radius: 20px; /* Color de fondo para distinguir la barra lateral */
-        padding: 20px; /* Espaciado interno */
-    }
-    
-    .jobList {
-        flex: 3; /* Ajusta el tamaño según tus necesidades */
-        background-color: #ffffff; /* Color de fondo para distinguir el contenido principal */
-        padding: 20px; /* Espaciado interno */
     }
 
     .card-borderless {
