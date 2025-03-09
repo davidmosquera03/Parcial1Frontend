@@ -1037,6 +1037,11 @@ li{list-style: none;}
     display: none;
 }
 
+.banner-mobile{
+    display: none;
+}
+
+
 @media (max-width: 600px) {
 
 
@@ -1102,6 +1107,7 @@ li{list-style: none;}
                         "jobs"
                         "category"
                         "info-block"
+                        "banner-mobile"
                         "testimonials"
                         "blog"
                         "footer";
@@ -1424,4 +1430,43 @@ li{list-style: none;}
         font-size: 20px;
         font-weight: 600;
     }
+
+    .banner-mobile{
+        background-color: black;
+        grid-area: banner-mobile;
+        display: block;
+        margin-bottom: 20px;
+        margin: 0% 10%;
+        border-radius: 20px;
+    }
+
+    .content-container{
+        text-align: center;
+        
+    }
+    .content-container img{
+        height: 187px;
+        width: 353px;
+    }
+
+    .banner-captions{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        margin-bottom: 4rem;
+        font-family: 'Figtree';
+        width: 300px;
+        padding-left: 15%;
+        padding-top: 10%;
+        gap: 3rem;
+    }
+
+    .banner-captions h1{
+        color: white;
+    }
+
+    .banner-captions p{
+        color: rgba(255,255,255,0.8);
+    }
+
   }
