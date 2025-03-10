@@ -822,6 +822,35 @@ a { color: inherit; }
     color: #000;
 }
 
+.DropdownWithIcon {
+    margin-top: 10%;
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.DropdownWithIcon img {
+    margin-right: 10px; 
+}
+
+.DropdownWithIcon select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+    font-size: 16px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #4b4b4b;
+}
+
+
 .InputWithIconLarge {
     margin-top: 10%;
     border-radius: 12px;
@@ -1128,31 +1157,7 @@ a { color: inherit; }
     height: fit-content;
 
 }
-.InputWithIcon {
-    margin-top: 10%;
-    border-radius: 12px;
-    padding-right: 12px;
-    padding-left: 12px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    background-color: #ffffff;
-}
-.InputWithIcon img {
-    margin-right: 10px; 
-}
-.InputWithIcon input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: 'Figtree';
-    font-size: 16px;
-    background-color: transparent;
-    border-color: transparent;
-    color: #000;
-}
+
 .jobList {
     font-family: 'Figtree';
     flex: 3; /* Ajusta el tamaño según tus necesidades */
@@ -1500,6 +1505,16 @@ input[type="checkbox"]:checked::after {
     height: 100%;
     border-radius: 12px;
 }
+
+.select {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+
 
 @media (max-width: 600px) {
 
