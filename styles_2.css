@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.main{
+    display: grid;
+    grid-template-areas:"header"
+                        "search-bar"
+                        "sidebar-list"
+                        "section2"
+                        "Companies"
+                        "footer";
+}
+
+li{list-style: none;}
+a { color: inherit; } 
+.mobile-name{
+    display: none;
+}
+
+/*HEADER*/
+.header {
+    font-family: 'Figtree';
+    font-weight: 600;
+    padding: 26px 0px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    grid-area:header;
+    justify-content: space-between;
+    
+}
+.header div p {
+    margin: 0; /* Removes default paragraph margins */
+}
+.search-bar{
+    background-color: black;
+    color:white;
+    grid-area: search-bar;
+    font-family: 'Figtree';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.search-bar h1{
+    font-size: 70px;
+    text-align: center;
+}
+.search-bar h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.search-bar .job-search-bar{
+    align-self: center;
+}
+.search-title4 h1{
+    font-size: 60px;
+}
+.main-menu{
+    display: flex;
+    gap: 20px;
+    font-size:16px;
+    
+}
+.main-menu li{
+    gap: 20px;
+}
+.login-bar{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+.in-label {
+    background-color: #309689;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.logotipo{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-left: 5%;
+    font-weight: 600;
+    font-size:20px;
+    gap: 10px;
+}
+
+/*CUERPO*/
+.Title-Banner {
+    text-align: center;
+    background-color: black;
+    color:white;
+    grid-area: search-bar;
+    font-family: 'Figtree';
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-list {
+    font-family: 'Figtree';
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.sidebar2 {
+    margin-left: 2%;
+    flex: 1; /* Ajusta el tamaño según tus necesidades */
+    background-color: #EBF5F4;
+    border-radius: 20px; /* Color de fondo para distinguir la barra lateral */
+    padding: 20px; /* Espaciado interno */
+}
+.InputWithIcon {
+    margin-top: 10%;
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+.InputWithIcon img {
+    margin-right: 10px; 
+}
+
+.InputWithIcon input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+    font-size: 16px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #000;
+}
+.jobList {
+    font-family: 'Figtree';
+    flex: 3; /* Ajusta el tamaño según tus necesidades */
+    background-color: #ffffff; /* Color de fondo para distinguir el contenido principal */
+    padding: 20px; /* Espaciado interno */
+}
+
+ .card {
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Faint shadow */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Very light border */
+    padding: 16px;
+    background: white;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.card p{
+    font-family: 'Figtree';
+    background-color: rgba(48, 150, 137,0.1);
+    color:#309689;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+ }
+.card-borderless {
+    margin-right: 3%;
+    background: rgb(255, 255, 255);
+}
+
+.card-details{
+    display: flex;
+    padding-left: 36px;
+    gap: 24px;
+}
+
+.card-details li{
+    color: #6C757D;
+    display: flex; 
+    font-weight: 600;
+    font-size: 80%;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-middle{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px; 
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-text h1{
+    font-size: 28px;
+}
+
+.card-text h3{
+    font-weight: 400;
+}
+.texto ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    
+}
+.texto h4{
+    color: #6C757D;
+    font-weight: normal;
+    margin-bottom: 2%;
+    border: 1.5px solid grey;
+    padding: 8px;
+    border-radius: 10px;
+}
+.texto p{
+    color: #6C757D;
+    font-weight: normal;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+.texto img{
+    width: auto;
+    max-height:10%;
+    margin-bottom: -6%;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: black;
+    grid-area:footer;
+    color: white;
+    font-family: 'Inter';
+    
+}
+.footer-info{
+    margin-left: 5%;
+    display: flex;
+    gap:122px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.description{
+    width: 300px; /* Set the width of the box */
+    height: 150px; /* Set the height of the box */
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.logotipo2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-weight: 600;
+    font-size:20px;
+    gap: 10px;
+}
+#job-desc{
+    font-family: 'Lexend';
+}
+.f-title{
+    font-weight: 600;
+    font-size:20px;
+}
+.f-list{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+#news-desc{
+    font-family: 'Lexend';
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 350px;
+}
+.email-input {
+    width: 306px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.suscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 50px;
+    background-color: #309689;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.legals{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
