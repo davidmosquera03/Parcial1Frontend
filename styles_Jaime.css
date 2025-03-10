@@ -1514,7 +1514,6 @@ input[type="checkbox"]:checked::after {
     outline: none;
 }
 
-/* Estilo general para el control deslizante */
 input[type="range"].slide {
     -webkit-appearance: none;
     width: 100%; 
