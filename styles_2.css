@@ -112,13 +112,20 @@ a { color: inherit; }
     flex-direction: row;
     gap: 24px;
 }
-.sidebar2 {
+
+
+.Ambas-cosas {
     margin-left: 2%;
-    flex: 1; /* Ajusta el tamaño según tus necesidades */
+    flex: 0.7; /* Ajusta el tamaño según tus necesidades */
+}
+
+.sidebar2 {
+    
     background-color: #EBF5F4;
     border-radius: 20px; /* Color de fondo para distinguir la barra lateral */
     padding: 20px; /* Espaciado interno */
     height: fit-content;
+
 }
 .InputWithIcon {
     margin-top: 10%;
