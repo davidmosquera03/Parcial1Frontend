@@ -1037,11 +1037,14 @@ li{list-style: none;}
     display: none;
 }
 
+<<<<<<< HEAD
 .banner-mobile{
     display: none;
 }
 
 
+=======
+>>>>>>> Jaime
 @media (max-width: 600px) {
 
 
@@ -1107,7 +1110,10 @@ li{list-style: none;}
                         "jobs"
                         "category"
                         "info-block"
+<<<<<<< HEAD
                         "banner-mobile"
+=======
+>>>>>>> Jaime
                         "testimonials"
                         "blog"
                         "footer";
@@ -1430,6 +1436,7 @@ li{list-style: none;}
         font-size: 20px;
         font-weight: 600;
     }
+<<<<<<< HEAD
 
     .banner-mobile{
         background-color: black;
@@ -1469,4 +1476,6 @@ li{list-style: none;}
         color: rgba(255,255,255,0.8);
     }
 
+=======
+>>>>>>> Jaime
   }
