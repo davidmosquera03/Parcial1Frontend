@@ -118,6 +118,7 @@ a { color: inherit; }
     background-color: #EBF5F4;
     border-radius: 20px; /* Color de fondo para distinguir la barra lateral */
     padding: 20px; /* Espaciado interno */
+    height: fit-content;
 }
 .InputWithIcon {
     margin-top: 10%;
@@ -417,3 +418,70 @@ a { color: inherit; }
  .checktext{
     display: flex;
  }
+
+ .category-container {
+    font-family: figtree;
+    max-width: 400px;
+    font-weight: 400;
+  }
+  
+  .category-item {
+    margin-bottom: 5px;
+  }
+  
+  .category-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .category-text {
+    flex-grow: 1;
+    margin-left: 8px;
+  }
+  
+  .category-value {
+    width: 2.1rem;
+    height: 1.4rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Estilo general para los checkboxes */
+input[type="checkbox"] {
+    appearance: none; /* Elimina el estilo predeterminado del navegador */
+    width: 20px;
+    height: 20px;
+    border: 1px solid #575757; /* Borde del checkbox */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: transparent; /* Fondo transparente */
+    cursor: pointer;
+}
+
+/* Estilo para el estado marcado del checkbox */
+input[type="checkbox"]:checked {
+    background-color: #000; /* Fondo del checkbox cuando está marcado */
+    border: 2px solid #000; /* Borde del checkbox cuando está marcado */
+    position: relative;
+}
+
+/* Estilo para el ícono de verificación */
+input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.sidebar-list h1{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
