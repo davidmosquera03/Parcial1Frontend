@@ -2115,6 +2115,13 @@ input[type="checkbox"]:checked::after {
      margin: 10%;
     }
  
+    .sidebarImage img{
+        width: 314px;
+        height: 460px;
+        padding-left: 20%;
+    }
+    
+
   }
 
   
